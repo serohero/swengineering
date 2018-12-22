@@ -524,7 +524,7 @@ public class InfoManagement {
               
 
                  
-                 public void list_appointment() {
+                 public int list_appointment() {
                     
                	 Connection con = null;
              	     PreparedStatement pstmt= null;
@@ -552,7 +552,7 @@ public class InfoManagement {
             	      } finally {
             	      }
                 
-                    
+                    return 0;
                  }
                  
                  public String detail_appointment() throws IOException {
